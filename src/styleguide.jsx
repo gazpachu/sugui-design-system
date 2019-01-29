@@ -37,7 +37,7 @@ const StyleGuideRenderer = ({
       </svg>
       <div className={classes.heroContent}>
         <div className={classes.heading1}>SugUI design system</div>
-        <div className={classes.heading2}>Guidelines for user experience and user interface components for building apps</div>
+        <div className={classes.heading2}>UX and UI component guidelines for building web apps</div>
         <img src="./img/hero.svg" alt="SugUI design system" />
       </div>
     </div>
@@ -46,7 +46,7 @@ const StyleGuideRenderer = ({
       {children}
     </div>
     <div className={classes.footer}>
-      Made with <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="#ff5452" className={classes.heart}><path d="M19.9 5.8c-1.5-2-4.2-2.3-6.2-.9-.7.5-1.2 1.2-1.6 2 0 .1-.1.1-.2 0-.3-.8-.8-1.5-1.6-2-2-1.4-4.7-1-6.2.9-1.6 2-1.5 5.2.3 7.1l7 7.8c.3.4.9.4 1.3 0l7-7.8c1.7-1.9 1.8-5.1.2-7.1z" /></svg> by the <a href="http://joanmira.com" target="_blank" rel="noopener noreferrer">Joan Mira</a> and <a href="https://www.behance.net/karennewton/" target="_blank" rel="noopener noreferrer">Karen Newton</a> © 2018
+      Made with <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="#ff5452" className={classes.heart}><path d="M19.9 5.8c-1.5-2-4.2-2.3-6.2-.9-.7.5-1.2 1.2-1.6 2 0 .1-.1.1-.2 0-.3-.8-.8-1.5-1.6-2-2-1.4-4.7-1-6.2.9-1.6 2-1.5 5.2.3 7.1l7 7.8c.3.4.9.4 1.3 0l7-7.8c1.7-1.9 1.8-5.1.2-7.1z" /></svg> by <a href="http://joanmira.com" target="_blank" rel="noopener noreferrer">Joan Mira</a> and <a href="https://www.behance.net/karennewton/" target="_blank" rel="noopener noreferrer">Karen Newton</a>
     </div>
   </div>
 );

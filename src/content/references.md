@@ -10,3 +10,5 @@ The SugUI design system was inspired by these other organisations' design system
 - Skyscanner: https://backpack.github.io/
 - Trello: https://design.trello.com/
 - WeWork: http://plasma.guide/
+
+The name `SugUI` comes from the Japanese word [sugoi / 凄い / すごい / スゴイ](https://en.wiktionary.org/wiki/sugoi), which means `amazing, awesome`.

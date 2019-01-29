@@ -13,7 +13,7 @@ const styles = ({
     margin: 0,
     paddingLeft: space[2],
     fontFamily: fontFamily.base,
-    fontSize: '18px',
+    fontSize: '16px',
     lineHeight: '40px',
     listStyle: 'none',
     overflow: 'hidden',

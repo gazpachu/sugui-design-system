@@ -1,4 +1,4 @@
-This website is a design system template based on the SugUI components library. Feel free to explore it, fork it or use it.
+This website is a design system template/example based on the [SugUI components library](https://github.com/gazpachu/sugui). Feel free to [explore it, fork it or use it](https://github.com/gazpachu/sugui-design-system).
 
 <style>
 .quote {
@@ -134,5 +134,3 @@ This design system is opened for everyone (developers, designers, business analy
     </g>
   </g>
 </svg>
-
-<p>Find here the latest toolkit build with sketch https://sketch.cloud/s/mrDx7</p>
