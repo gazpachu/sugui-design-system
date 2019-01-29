@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   title: 'SugUI Design System',
-  version: 'v1.0.0-alpha.1',
+  version: 'v1.0.0-alpha.3',
   theme: {
     fontFamily: {
       base: '"Open Sans", sans-serif'
@@ -127,19 +127,7 @@ module.exports = {
     }
   },
   ignore: ['**/src/components/**/*.styles.jsx', '**/src/components/**/_*.jsx'],
-  skipComponentsWithoutExample: true,
-  dangerouslyUpdateWebpackConfig(webpackConfig) {
-    // WARNING: inspect Styleguidist Webpack config before modifying it, otherwise you may break Styleguidist
-    if (process.env.NODE_ENV !== 'development') {
-      // eslint-disable-next-line
-      webpackConfig.output = {
-        publicPath: 'design-system/',
-        filename: 'build/bundle.[chunkhash:8].js',
-        chunkFilename: 'build/[name].[chunkhash:8].js'
-      };
-    }
-    return webpackConfig;
-  }
+  skipComponentsWithoutExample: true
   // ribbon: {
   //   // Link to open on the ribbon click (required)
   //   url: 'https://github.com/gazpachu/sugui',

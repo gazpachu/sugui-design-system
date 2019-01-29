@@ -1,10 +1,11 @@
 {
   "name": "sugui-design-system",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.3",
   "description": "",
   "main": "index.js",
   "dependencies": {
     "classnames": "^2.2.6",
+    "gh-pages": "^2.0.1",
     "prop-types": "^15.6.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -12,7 +13,7 @@
     "react-styleguidist": "^8.0.6",
     "react-swipeable-views": "^0.12.13",
     "styled-components": "^4.0.3",
-    "sugui": "^1.0.0-alpha.1"
+    "sugui": "^1.0.0-alpha.3"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -34,7 +35,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Joan Mira",
   "license": "MIT"

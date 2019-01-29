@@ -18,11 +18,11 @@ const Cell = require('../../node_modules/sugui/src/components/grid/_cell.jsx').d
 
 <Grid>
   <Cell width={6} center middle>
-    <img src="https://s3-eu-west-1.amazonaws.com/vf-common-assets/design-system/grid-1440-liquid.png" alt="Grid 1440px liquid" />
+    <img src="./img/grid-1440-liquid.png" alt="Grid 1440px liquid" />
     <div>Liquid layout</div>
   </Cell>
   <Cell width={6} center middle>
-    <img src="https://s3-eu-west-1.amazonaws.com/vf-common-assets/design-system/grid-1440-fixed.png" alt="Grid 1440px fixed" />
+    <img src="./img/grid-1440-fixed.png" alt="Grid 1440px fixed" />
     <div>Fixed container layout</div>
   </Cell>
 </Grid>
@@ -42,11 +42,11 @@ const Cell = require('../../node_modules/sugui/src/components/grid/_cell.jsx').d
 
 <Grid>
   <Cell width={6} center middle>
-    <img src="https://s3-eu-west-1.amazonaws.com/vf-common-assets/design-system/grid-1024.png" alt="Grid 1024px liquid" />
+    <img src="./img/grid-1024.png" alt="Grid 1024px liquid" />
     <div>Liquid layout</div>
   </Cell>
   <Cell width={6} center middle>
-    <img src="https://s3-eu-west-1.amazonaws.com/vf-common-assets/design-system/grid-1024.png" alt="Grid 1024px fixed" />
+    <img src="./img/grid-1024.png" alt="Grid 1024px fixed" />
     <div>Fixed container layout</div>
   </Cell>
 </Grid>
@@ -65,7 +65,7 @@ const Cell = require('../../node_modules/sugui/src/components/grid/_cell.jsx').d
 
 <Grid>
   <Cell width={6} center middle>
-    <img src="https://s3-eu-west-1.amazonaws.com/vf-common-assets/design-system/grid-768.png" alt="Grid 768px liquid" />
+    <img src="./img/grid-768.png" alt="Grid 768px liquid" />
     <div>Liquid layout</div>
   </Cell>
 </Grid>
@@ -84,7 +84,7 @@ const Cell = require('../../node_modules/sugui/src/components/grid/_cell.jsx').d
 
 <Grid>
   <Cell width={6} center middle>
-    <img src="https://s3-eu-west-1.amazonaws.com/vf-common-assets/design-system/grid-375.png" alt="Grid 375px liquid" />
+    <img src="./img/grid-375.png" alt="Grid 375px liquid" />
     <div>Liquid layout</div>
   </Cell>
 </Grid>
