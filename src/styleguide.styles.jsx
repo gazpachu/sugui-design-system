@@ -5,7 +5,7 @@ const styles = () => ({
     backgroundColor: '#fff'
   },
   logo: {
-    padding: '16px 16px 10px 16px'
+    padding: '5px 16px 0px 12px'
   },
   version: {
     color: '#767676',

@@ -1,6 +1,7 @@
 import React from 'react';
 import Styled from 'react-styleguidist/lib/rsg-components/Styled';
 import styles from './styleguide.styles';
+import Logo from './logo';
 
 const StyleGuideRenderer = ({
   version,
@@ -14,7 +15,7 @@ const StyleGuideRenderer = ({
     {hasSidebar &&
       <div className={classes.sidebar}>
         <div className={classes.logo}>
-          Logo
+          <Logo />
         </div>
         {toc}
         {version && <h2 className={classes.version}>{version}</h2>}

@@ -9,7 +9,7 @@ const styles = ({
     fontFamily: fontFamily.base
   },
   search: {
-    padding: '16px 16px 30px 16px'
+    padding: '5px 16px 30px 16px'
   },
   input: {
     display: 'block',

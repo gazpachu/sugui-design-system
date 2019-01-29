@@ -15,7 +15,8 @@ const styles = ({
   },
   heading3: {
     fontSize: fontSize.h3,
-    marginBottom: '20px'
+    marginBottom: '20px',
+    marginTop: '40px'
   },
   heading4: {
     fontSize: fontSize.h4,

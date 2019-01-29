@@ -12,7 +12,7 @@ module.exports = {
     head: {
       links: [{
         rel: 'icon',
-        href: '/dashboard/assets/static/icons/favicon-16x16.png'
+        href: '/img/favicon.png'
       }]
     }
   },
@@ -128,6 +128,19 @@ module.exports = {
   },
   ignore: ['**/src/components/**/*.styles.jsx', '**/src/components/**/_*.jsx'],
   skipComponentsWithoutExample: true
+  // In case the base path is different...
+  // dangerouslyUpdateWebpackConfig(webpackConfig) {
+  //   // WARNING: inspect Styleguidist Webpack config before modifying it, otherwise you may break Styleguidist
+  //   if (process.env.NODE_ENV !== 'development') {
+  //     // eslint-disable-next-line
+  //     webpackConfig.output = {
+  //       publicPath: 'design-system/',
+  //       filename: 'build/bundle.[chunkhash:8].js',
+  //       chunkFilename: 'build/[name].[chunkhash:8].js'
+  //     };
+  //   }
+  //   return webpackConfig;
+  // }
   // ribbon: {
   //   // Link to open on the ribbon click (required)
   //   url: 'https://github.com/gazpachu/sugui',
