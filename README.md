@@ -1,6 +1,6 @@
 # SugUI Design System
 
-This package works together with the [sugui](https://github.com/gazpachu/sugui) UI component library.
+This package works together with the [sugUI](https://github.com/gazpachu/sugui) components library.
 
 ## What can I do with this package?
 
