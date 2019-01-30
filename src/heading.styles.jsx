@@ -11,7 +11,8 @@ const styles = ({
     marginBottom: '30px'
   },
   heading2: {
-    fontSize: fontSize.h2
+    fontSize: fontSize.h2,
+    marginBottom: '30px'
   },
   heading3: {
     fontSize: fontSize.h3,

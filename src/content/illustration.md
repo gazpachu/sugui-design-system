@@ -1,3 +1,7 @@
+Quisque ut imperdiet leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Cras vitae lacus metus. Aliquam erat volutpat. Aliquam viverra tristique nisi, ut pharetra lectus ultrices quis. Pellentesque feugiat elit et vulputate scelerisque.
+
 <style>
 .grid {
   display: grid;
@@ -9,9 +13,9 @@
 
 ```jsx noeditor
 <div className="grid">
-  <img src="#" alt="Gateway Illustration" />
+  <img src="/img/illustration1.svg" width="95%" alt="Office illustration" />
 
-  <img src="#" alt="Lighthouse illustration" />
+  <img src="/img/illustration2.svg" width="95%" alt="Office illustration" />
 </div>
 ```
 

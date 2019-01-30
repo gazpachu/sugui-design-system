@@ -1,4 +1,6 @@
-### Weights
+Maecenas vitae ullamcorper diam, eu efficitur orci. Suspendisse molestie, nulla imperdiet gravida condimentum, sem ex convallis diam, ut auctor tellus lectus sed elit. Quisque ut imperdiet leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Cras vitae lacus metus. Aliquam erat volutpat. Aliquam viverra tristique nisi, ut pharetra lectus ultrices quis. Pellentesque feugiat elit et vulputate scelerisque. Donec malesuada mauris sed enim iaculis facilisis. Maecenas urna leo, tincidunt eget urna et, sagittis tincidunt magna.
 
 <style>
 .weight {
@@ -43,26 +45,26 @@ const theme = require('../../node_modules/sugui/src/components/theme/settings.js
     <tbody>
       <tr>
         <td className="first">H1</td>
-        <td style={{ fontSize: '64px' }}>Light 64px (72px)</td>
-        <td style={{ fontSize: '56px' }}>Light 56px (62px)</td>
-        <td style={{ fontSize: '32px' }}>Light 32px (40px)</td>
+        <td style={{ fontSize: '64px', fontWeight: 'lighter' }}>Light 64px (72px)</td>
+        <td style={{ fontSize: '56px', fontWeight: 'lighter' }}>Light 56px (62px)</td>
+        <td style={{ fontSize: '32px', fontWeight: 'lighter' }}>Light 32px (40px)</td>
       </tr>
       <tr>
         <td className="first">H2</td>
-        <td style={{ fontSize: '56px' }}>Light 56px (62px)</td>
-        <td style={{ fontSize: '40px' }}>Light 40px (48px)</td>
-        <td style={{ fontSize: '28px' }}>Light 28px (36px)</td>
+        <td style={{ fontSize: '56px', fontWeight: 'lighter' }}>Light 56px (62px)</td>
+        <td style={{ fontSize: '40px', fontWeight: 'lighter' }}>Light 40px (48px)</td>
+        <td style={{ fontSize: '28px', fontWeight: 'lighter' }}>Light 28px (36px)</td>
       </tr>
       <tr>
         <td className="first">H3</td>
-        <td style={{ fontSize: '40px' }}>Light 40px (48px)</td>
-        <td style={{ fontSize: '34px' }}>Light 34px (40px)</td>
-        <td style={{ fontSize: '24px' }}>Light 24px (30px)</td>
+        <td style={{ fontSize: '40px', fontWeight: 'lighter' }}>Light 40px (48px)</td>
+        <td style={{ fontSize: '34px', fontWeight: 'lighter' }}>Light 34px (40px)</td>
+        <td style={{ fontSize: '24px', fontWeight: 'lighter' }}>Light 24px (30px)</td>
       </tr>
       <tr>
         <td className="first">H4</td>
-        <td style={{ fontSize: '28px' }}><span>Light / </span><span>Bold</span> 28px (34px)</td>
-        <td style={{ fontSize: '24px' }}><span>Light / </span><span>Bold</span> 24px (30px)</td>
+        <td style={{ fontSize: '28px' }}><span style={{ fontWeight: 'light' }}>Light / </span><span style={{ fontWeight: 'bold' }}>Bold</span> 28px (34px)</td>
+        <td style={{ fontSize: '24px' }}><span style={{ fontWeight: 'light' }}>Light / </span><span style={{ fontWeight: 'bold' }}>Bold</span> 24px (30px)</td>
         <td style={{ fontSize: '20px' }}>Regular 20px (28px)</td>
       </tr>
       <tr>
