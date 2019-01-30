@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   title: 'SugUI Design System',
-  version: 'v1.0.0-alpha.7',
+  version: 'v1.0.0-alpha.8',
   theme: {
     color: {
       link: '#9C2AA0',
