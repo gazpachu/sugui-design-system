@@ -2,9 +2,11 @@
 
 This package works together with the [sugui](https://github.com/gazpachu/sugui) UI component library.
 
-If you decide to fork it, to make your custom design system, you might want to setup your local environment to have both packages working together with hot reloading. If you don't want to change the components and their examples, then you probably will be fine just running `yarn run styleguide`, otherwise continue reading...
+## What can I do with this package?
 
-## Local env. setup
+Most of the user would decide to fork this repo and create their custom design system. If that's the case, you might want to setup your local environment to have both packages working together with hot reloading.
+
+## Local environment setup
 
 If you want to modify the components and their examples and see the changes in real-time in the styleguidist website, then you will need to create a symbolic link to the `sugui` library.
 
