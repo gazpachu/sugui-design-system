@@ -8,11 +8,11 @@ Most users would fork this repo to create their custom design system based on th
 
 ## Local environment setup
 
-If you want to modify the components and their examples and see the changes in real-time in the styleguidist website, then you will need to create a symbolic link to the `sugui` library.
+If you want to modify the components and their examples and see the changes in real-time in the styleguidist website, then you will need to create a symbolic link to the `sugUI` library.
 
 You can use [yarn link](https://yarnpkg.com/lang/en/docs/cli/link/) or [npm link](https://docs.npmjs.com/cli/link.html).
 
-First, clone the [sugui](https://github.com/gazpachu/sugui) package into your computer.
+First, clone the [sugUI](https://github.com/gazpachu/sugui) package into your computer.
 
 Go to your cloned `sugui` folder and type:
 
