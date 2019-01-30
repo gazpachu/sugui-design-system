@@ -67,6 +67,10 @@ module.exports = {
           content: path.join(__dirname, 'src/content/branding.md')
         },
         {
+          name: 'Logos',
+          content: path.join(__dirname, 'src/content/logos.md')
+        },
+        {
           name: 'Colors',
           content: path.join(__dirname, 'src/content/colors.md')
         },

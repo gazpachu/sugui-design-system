@@ -10,7 +10,7 @@ document.getElementById("play").addEventListener("click", function () {
 });
 ```
 
-This website is a design system template/example based on the [SugUI components library](https://github.com/gazpachu/sugui). Feel free to [explore it, fork it or use it](https://github.com/gazpachu/sugui-design-system).
+[This website](https://github.com/gazpachu/sugui-design-system) is a design system template/example based on the [SugUI components library](https://github.com/gazpachu/sugui). Feel free to [explore it, fork it or use it](https://github.com/gazpachu/sugui-design-system).
 
 <style>
 .quote {
