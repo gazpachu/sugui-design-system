@@ -1,14 +1,12 @@
 const styles = ({
   color,
   fontFamily,
-  space,
-  mq
+  space
 }) => ({
   list: {
     margin: 0
   },
   item: {
-    color: color.base,
     display: 'block',
     margin: 0,
     paddingLeft: space[2],
@@ -21,15 +19,17 @@ const styles = ({
     borderBottom: '1px solid #EEE'
   },
   isChild: {
-    [mq.small]: {
-      display: 'inline-block',
-      margin: [[0, space[1], 0, 0]]
-    }
+    borderBottom: 'none',
+    lineHeight: '30px'
+  },
+  link: {
+    color: '#777 !important'
   },
   heading: {
-    color: color.base,
-    marginTop: space[1],
-    fontFamily: fontFamily.base,
+    color: `${color.base} !important`,
+    lineHeight: '40px !important'
+  },
+  isSelected: {
     fontWeight: 'bold'
   },
   label: {

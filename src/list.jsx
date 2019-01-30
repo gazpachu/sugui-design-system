@@ -2,6 +2,7 @@ import React from 'react';
 import cx from 'classnames';
 import Link from 'react-styleguidist/lib/rsg-components/Link';
 import Styled from 'react-styleguidist/lib/rsg-components/Styled';
+// import { getHash } from 'react-styleguidist/lib/utils/handleHash';
 import styles from './list.styles';
 
 const ComponentsListRenderer = ({ classes, items }) => {
@@ -12,6 +13,7 @@ const ComponentsListRenderer = ({ classes, items }) => {
     return null;
   }
 
+  // const windowHash = window.location.pathname + getHash(window.location.hash);
   return (
     <ul className={classes.list}>
       {items.map(({
@@ -21,12 +23,17 @@ const ComponentsListRenderer = ({ classes, items }) => {
         content,
         external
       }) => (
+        // const isItemSelected = windowHash === href;
         <li
-          className={cx(classes.item, (!content || !content.props.items.length) && classes.isChild)}
+          className={cx(
+            classes.item,
+            (visibleName !== 'Introduction' && visibleName !== 'Design Principles' && visibleName !== 'References') && classes.isChild
+            // (!content || !content.props.items.length) && classes.isChild
+          )}
           key={href}
         >
           <Link
-            className={cx(heading && classes.heading)}
+            className={cx(classes.link, heading && classes.heading)}
             href={href}
             target={external ? '_blank' : undefined}
           >

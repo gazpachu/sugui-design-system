@@ -4,6 +4,10 @@ module.exports = {
   title: 'SugUI Design System',
   version: 'v1.0.0-alpha.3',
   theme: {
+    color: {
+      link: '#9C2AA0',
+      linkHover: '#E89700'
+    },
     fontFamily: {
       base: '"Open Sans", sans-serif'
     }
