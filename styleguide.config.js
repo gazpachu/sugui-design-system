@@ -102,6 +102,11 @@ module.exports = {
     {
       name: 'References',
       content: path.join(__dirname, 'src/content/references.md')
+    },
+    {
+      name: 'Github repo',
+      href: 'https://github.com/gazpachu/sugui-design-system',
+      external: true
     }
   ],
   getComponentPathLine: (pathLine) => {
@@ -144,11 +149,5 @@ module.exports = {
   //     };
   //   }
   //   return webpackConfig;
-  // }
-  // ribbon: {
-  //   // Link to open on the ribbon click (required)
-  //   url: 'https://github.com/gazpachu/sugui',
-  //   // Text to show on the ribbon (optional)
-  //   text: 'GitHub repo'
   // }
 };

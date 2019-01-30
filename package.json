@@ -10,7 +10,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-search-input": "^0.11.3",
-    "react-styleguidist": "^8.0.6",
+    "react-styleguidist": "^9.0.0-beta4",
     "react-swipeable-views": "^0.12.13",
     "styled-components": "^4.0.3",
     "sugui": "^1.0.0-alpha.3"

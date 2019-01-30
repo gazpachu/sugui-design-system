@@ -15,7 +15,7 @@ Cras vitae lacus metus. Aliquam erat volutpat. Aliquam viverra tristique nisi, u
 <div className="grid">
   <img src="/img/illustration1.svg" width="95%" alt="Office illustration" />
 
-  <img src="/img/illustration2.svg" width="95%" alt="Office illustration" />
+  <img src="/img/illustration3.svg" width="95%" alt="Office illustration" />
 </div>
 ```
 

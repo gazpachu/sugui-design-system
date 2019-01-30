@@ -11,4 +11,11 @@ The SugUI design system was inspired by these other organisations' design system
 - Trello: https://design.trello.com/
 - WeWork: http://plasma.guide/
 
-The name `SugUI` comes from the Japanese word [sugoi / 凄い / すごい / スゴイ](https://en.wiktionary.org/wiki/sugoi), which means `amazing, awesome`.
+The name `SugUI` comes from the Japanese word [sugoi, 凄い, すごい, スゴイ](https://en.wiktionary.org/wiki/sugoi), which means `amazing, awesome`.
+
+It's pronounced like this:
+
+<audio controls="controls">
+  Your browser does not support the &lt;audio&gt; tag.
+  <source src="/audio/sugui.mp3" />
+</audio>

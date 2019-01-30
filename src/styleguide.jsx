@@ -1,5 +1,5 @@
 import React from 'react';
-import Styled from 'react-styleguidist/lib/rsg-components/Styled';
+import Styled from 'react-styleguidist/lib/client/rsg-components/Styled';
 import styles from './styleguide.styles';
 import Logo from './logo';
 

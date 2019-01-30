@@ -1,7 +1,7 @@
 import React from 'react';
 import cx from 'classnames';
-import Link from 'react-styleguidist/lib/rsg-components/Link';
-import Styled from 'react-styleguidist/lib/rsg-components/Styled';
+import Link from 'react-styleguidist/lib/client/rsg-components/Link';
+import Styled from 'react-styleguidist/lib/client/rsg-components/Styled';
 // import { getHash } from 'react-styleguidist/lib/utils/handleHash';
 import styles from './list.styles';
 
