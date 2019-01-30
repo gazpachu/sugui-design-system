@@ -4,7 +4,7 @@ This package works together with the [sugUI](https://github.com/gazpachu/sugui) 
 
 ## What can I do with this package?
 
-Most of the user would decide to fork this repo and create their custom design system. If that's the case, you might want to setup your local environment to have both packages working together with hot reloading.
+Most users would fork this repo to create their custom design system based on the sugUI components library. If that's the case, you might want to setup your local environment to have both packages working together with hot reloading.
 
 ## Local environment setup
 
