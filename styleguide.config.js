@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   title: 'SugUI Design System',
-  version: 'v1.0.0-alpha.5',
+  version: 'v1.0.0-alpha.6',
   theme: {
     color: {
       link: '#9C2AA0',
@@ -17,6 +17,18 @@ module.exports = {
       links: [{
         rel: 'icon',
         href: '/img/favicon.png'
+      }],
+      meta: [{
+        property: 'og:title',
+        content: 'SugUI Design System'
+      },
+      {
+        property: 'og:image',
+        content: 'https://gazpachu.github.io/sugui-design-system/img/screenshot.jpg'
+      },
+      {
+        property: 'og:description',
+        content: 'SugUI is a UI library and Design System based on React and Styled Components'
       }]
     }
   },
