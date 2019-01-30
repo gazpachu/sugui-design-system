@@ -1,4 +1,4 @@
-const iconsContext = require.context('../../node_modules/fingertips-ui/src/logos/', true, /jsx$/);
+const iconsContext = require.context('../../node_modules/sugui/src/logos/', true, /jsx$/);
 
 const Icons = iconsContext.keys().reduce((icons, file) => {
   const Icon = iconsContext(file).default;

@@ -31,7 +31,7 @@ const Logos = Object.keys(logos).map(logoName => {
   return (
     <div className="logo" key={logoName}>
       <div>{<Logo />}</div>
-      <a href={`${logoName}.svg`} style={{ color: state.bgColor === '#333333' ? 'white' : 'black' }}>{logoName}.svg</a>
+      <a href={`img/${logoName}.svg`} style={{ color: state.bgColor === '#333333' ? 'white' : 'black' }}>{logoName}.svg</a>
     </div>
   )
 });

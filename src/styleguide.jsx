@@ -1,7 +1,7 @@
 import React from 'react';
 import Styled from 'react-styleguidist/lib/client/rsg-components/Styled';
 import styles from './styleguide.styles';
-import Logo from './logo';
+import Logo from '../node_modules/sugui/src/logos/suguiLogo';
 
 const StyleGuideRenderer = ({
   version,
