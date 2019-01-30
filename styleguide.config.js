@@ -16,7 +16,7 @@ module.exports = {
     head: {
       links: [{
         rel: 'icon',
-        href: '/img/favicon.png'
+        href: 'img/favicon.png'
       }],
       meta: [{
         property: 'og:title',
