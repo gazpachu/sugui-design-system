@@ -30,15 +30,15 @@ This website is a design system template that uses the SugUI components library.
 
 <hr style="margin: 30px 0 !important" />
 
-<div className="quote">"A Design System contains the knowledge that designers and developers need for designing and developing products faster and with consistency"</div>
+<div className="quote">"A Design System contains the knowledge that designers and developers need to create products faster and with consistency"</div>
 
-The SugUI design system consists in a collection of foundational elements (colors, text styles, icons), user interface components and guidelines for their usage.
+The SugUI Design System consists in a collection of foundational elements (colors, text styles, icons), UI components and UX guidelines for their usage.
 
-This design system is opened for everyone (developers, designers, business analysts, etc) interested in building web apps.
+This design system is opened for everyone interested in building web apps, like developers, designers, product owners, business analysts, etc.
 
 ### Goals of the SugUI design system
 
-- **Platform agnostic**: it works in any browser (except IE11) and device
+- **Platform agnostic**: it works in any browser and device (except IE11 and below)
 - **Guidance**: empowers non-designers to confidently build brand-aligned, accessible user interfaces
 - **Reusability**: encourages the <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself" target="_blank">DRY principle</a>
 - **Homogeneity**: makes UI's look similar, which brings familiarity and simplicity of use to the users
