@@ -1,3 +1,5 @@
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 # sugUI Design System
 
 This package works together with the [sugUI](https://github.com/gazpachu/sugui) components library.
