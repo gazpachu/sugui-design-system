@@ -1,4 +1,4 @@
-The SugUI colour palette aims at providing an organised approach to apply colour to the UI of your apps.
+The sugUI colour palette aims at providing an organised approach to apply colour to the UI of your apps.
 
 ### Colour usage
 

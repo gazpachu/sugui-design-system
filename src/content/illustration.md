@@ -23,5 +23,5 @@ Cras vitae lacus metus. Aliquam erat volutpat. Aliquam viverra tristique nisi, u
 
 - Concept should be understood straight-away
 - Isometric grid is recommended
-- SugUI colour palette is recommended. Ensuring it’s not too overwhelming with too many colours. Grey tones are also recommended.
+- sugUI colour palette is recommended. Ensuring it’s not too overwhelming with too many colours. Grey tones are also recommended.
 - Try to add people figures

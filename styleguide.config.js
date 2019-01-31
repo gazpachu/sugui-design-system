@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  title: 'SugUI Design System',
+  title: 'sugUI Design System',
   version: 'v1.0.0-alpha.8',
   theme: {
     color: {
@@ -20,7 +20,7 @@ module.exports = {
       }],
       meta: [{
         property: 'og:title',
-        content: 'SugUI Design System'
+        content: 'sugUI Design System'
       },
       {
         property: 'og:image',
@@ -28,7 +28,7 @@ module.exports = {
       },
       {
         property: 'og:description',
-        content: 'SugUI is a UI library and Design System based on React and Styled Components'
+        content: 'sugUI is a UI library and Design System based on React and Styled Components'
       }],
       scripts: [{
         src: 'https://buttons.github.io/buttons.js'

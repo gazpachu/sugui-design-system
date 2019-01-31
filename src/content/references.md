@@ -1,4 +1,4 @@
-The SugUI design system was inspired by these other organisations' design systems:
+The sugUI design system was inspired by these other organisations' design systems:
 
 - Google: https://material.io/design/
 - Atlassian: https://atlassian.design/

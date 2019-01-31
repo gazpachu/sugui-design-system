@@ -9,7 +9,7 @@
 }
 </style>
 
-`SugUI` <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDg3LjQ1OSA4Ny40NTkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDg3LjQ1OSA4Ny40NTk7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij4KPGc+Cgk8cGF0aCBkPSJNMzcuNDQsNzMuMjgzSDcuNjk0VjU1LjY2QzIuNzg3LDUxLjEzNiwwLDQ0LjgxMSwwLDM4LjA5YzAtMTMuMTg2LDEwLjcyOC0yMy45MTMsMjMuOTEzLTIzLjkxMyAgIGMxMC43NjUsMCwyMC4yNTQsNy4yNTEsMjMuMDc0LDE3LjYzNGwwLjA4OCwwLjMybDAuMTc4LDMuOTIxbDcuMjE3LDEwLjEybC02LjM0NCw0LjYwOHYzLjUyNGMwLDQuMjQ0LTMuNDUzLDcuNjk4LTcuNyw3LjY5OCAgIGgtMi45ODVMMzcuNDQsNzMuMjgzTDM3LjQ0LDczLjI4M3ogTTEzLjY5NCw2Ny4yODNIMzEuNDRWNTYuMDA0aDguOTg1YzAuOTM4LDAsMS43LTAuNzYzLDEuNy0xLjY5OXYtNi41OGw0LjAwNi0yLjkxbC00Ljc5NC02LjcyICAgbC0wLjIyNy01LjAxNmMtMi4yMTQtNy42MTItOS4yNDEtMTIuOS0xNy4xOTgtMTIuOWMtOS44NzcsMC0xNy45MTMsOC4wMzYtMTcuOTEzLDE3LjkxM2MwLDUuNCwyLjQwMiwxMC40NTgsNi41OTEsMTMuODc3ICAgbDEuMTAzLDAuOUwxMy42OTQsNjcuMjgzTDEzLjY5NCw2Ny4yODN6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNNjEuMTUyLDU2Ljk3Mkw1Ni45MSw1Mi43M2MyLjcwNi0yLjcwNywyLjcwNi03LjExMS0wLjAwMS05LjgxOWw0LjI0NC00LjI0MkM2Ni4xOTgsNDMuNzE1LDY2LjE5OCw1MS45MjcsNjEuMTUyLDU2Ljk3MnoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik02OS4yNTEsNjMuMzYxbC00LjI0Mi00LjI0MmM2LjIyOS02LjIyOSw2LjIyOS0xNi4zNjYsMC0yMi41OTZsNC4yNDItNC4yNDJDNzcuODE4LDQwLjg1LDc3LjgxOCw1NC43OTMsNjkuMjUxLDYzLjM2MXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03OC41NTUsNjkuMzUxbC00LjI0NC00LjI0MmM5LjUzMS05LjUzMyw5LjUzMS0yNS4wNDMsMC4wMDItMzQuNTc1bDQuMjQyLTQuMjQyICAgQzkwLjQyNywzOC4xNjEsOTAuNDI3LDU3LjQ3OCw3OC41NTUsNjkuMzUxeiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" id="play" style="vertical-align: bottom; margin-left: 5px; cursor: pointer" /> comes from the Japanese word [sugoi, 凄い, すごい, スゴイ](https://en.wiktionary.org/wiki/sugoi), which means `amazing, awesome`.
+`sugUI` <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDg3LjQ1OSA4Ny40NTkiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDg3LjQ1OSA4Ny40NTk7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4Ij4KPGc+Cgk8cGF0aCBkPSJNMzcuNDQsNzMuMjgzSDcuNjk0VjU1LjY2QzIuNzg3LDUxLjEzNiwwLDQ0LjgxMSwwLDM4LjA5YzAtMTMuMTg2LDEwLjcyOC0yMy45MTMsMjMuOTEzLTIzLjkxMyAgIGMxMC43NjUsMCwyMC4yNTQsNy4yNTEsMjMuMDc0LDE3LjYzNGwwLjA4OCwwLjMybDAuMTc4LDMuOTIxbDcuMjE3LDEwLjEybC02LjM0NCw0LjYwOHYzLjUyNGMwLDQuMjQ0LTMuNDUzLDcuNjk4LTcuNyw3LjY5OCAgIGgtMi45ODVMMzcuNDQsNzMuMjgzTDM3LjQ0LDczLjI4M3ogTTEzLjY5NCw2Ny4yODNIMzEuNDRWNTYuMDA0aDguOTg1YzAuOTM4LDAsMS43LTAuNzYzLDEuNy0xLjY5OXYtNi41OGw0LjAwNi0yLjkxbC00Ljc5NC02LjcyICAgbC0wLjIyNy01LjAxNmMtMi4yMTQtNy42MTItOS4yNDEtMTIuOS0xNy4xOTgtMTIuOWMtOS44NzcsMC0xNy45MTMsOC4wMzYtMTcuOTEzLDE3LjkxM2MwLDUuNCwyLjQwMiwxMC40NTgsNi41OTEsMTMuODc3ICAgbDEuMTAzLDAuOUwxMy42OTQsNjcuMjgzTDEzLjY5NCw2Ny4yODN6IiBmaWxsPSIjMDAwMDAwIi8+Cgk8cGF0aCBkPSJNNjEuMTUyLDU2Ljk3Mkw1Ni45MSw1Mi43M2MyLjcwNi0yLjcwNywyLjcwNi03LjExMS0wLjAwMS05LjgxOWw0LjI0NC00LjI0MkM2Ni4xOTgsNDMuNzE1LDY2LjE5OCw1MS45MjcsNjEuMTUyLDU2Ljk3MnoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik02OS4yNTEsNjMuMzYxbC00LjI0Mi00LjI0MmM2LjIyOS02LjIyOSw2LjIyOS0xNi4zNjYsMC0yMi41OTZsNC4yNDItNC4yNDJDNzcuODE4LDQwLjg1LDc3LjgxOCw1NC43OTMsNjkuMjUxLDYzLjM2MXoiIGZpbGw9IiMwMDAwMDAiLz4KCTxwYXRoIGQ9Ik03OC41NTUsNjkuMzUxbC00LjI0NC00LjI0MmM5LjUzMS05LjUzMyw5LjUzMS0yNS4wNDMsMC4wMDItMzQuNTc1bDQuMjQyLTQuMjQyICAgQzkwLjQyNywzOC4xNjEsOTAuNDI3LDU3LjQ3OCw3OC41NTUsNjkuMzUxeiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" id="play" style="vertical-align: bottom; margin-left: 5px; cursor: pointer" /> comes from the Japanese word [sugoi, 凄い, すごい, スゴイ](https://en.wiktionary.org/wiki/sugoi), which means `amazing, awesome`.
 
 <audio id="audio">
   <source src="audio/sugui.mp3" />
@@ -21,22 +21,23 @@ document.getElementById("play").addEventListener("click", function () {
 });
 ```
 
-This website is a design system template that uses the SugUI components library. Feel free to use or fork both packages:
+This website is a design system template that uses the sugUI components library. Feel free to use or fork both packages:
 
 <p>
-<a class="github-button" href="https://github.com/gazpachu/sugui" aria-label="Star gazpachu/sugui on GitHub">SugUI Components Library</a><span>&nbsp;</span>
-<a class="github-button" href="https://github.com/gazpachu/sugui-design-system" aria-label="Star gazpachu/sugui-design-system on GitHub">SugUI Design System website</a>
+<a class="github-button" href="https://github.com/gazpachu/sugui" aria-label="Star gazpachu/sugui on GitHub">sugUI Components Library</a><span>&nbsp;</span>
+<a class="github-button" href="https://github.com/gazpachu/sugui-design-system" aria-label="Star gazpachu/sugui-design-system on GitHub">sugUI Design System website</a><span>&nbsp;</span>
+<a class="github-button" href="https://github.com/gazpachu" aria-label="Follow @gazpachu on GitHub">Follow @gazpachu</a>
 </p>
 
 <hr style="margin: 30px 0 !important" />
 
 <div className="quote">"A Design System contains the knowledge that designers and developers need to create products faster and with consistency"</div>
 
-The SugUI Design System consists in a collection of foundational elements (colors, text styles, icons), UI components and UX guidelines for their usage.
+The sugUI Design System consists in a collection of foundational elements (colors, text styles, icons), UI components and UX guidelines for their usage.
 
 This design system is opened for everyone interested in building web apps, like developers, designers, product owners, business analysts, etc.
 
-### Goals of the SugUI design system
+### Goals of the sugUI Design System
 
 - **Platform agnostic**: it works in any browser and device (except IE11 and below)
 - **Guidance**: empowers non-designers to confidently build brand-aligned, accessible user interfaces

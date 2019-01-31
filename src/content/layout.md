@@ -1,4 +1,4 @@
-SugUI has two different layouts: **liquid** or **fixed container**.
+sugUI has two different layouts: **liquid** or **fixed container**.
 
 In the liquid layout, the content in the page expands and takes all the available width of the screen. This approach is useful when we need to represent a masonry of cards or long tables.
 

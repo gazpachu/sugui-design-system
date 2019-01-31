@@ -1,4 +1,4 @@
-This section contains the SugUI logo but it can also have additional logos.
+This section contains the sugUI logo but it can also have additional logos.
 
 ### Logo guidelines
 
