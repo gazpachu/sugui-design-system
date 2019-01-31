@@ -29,6 +29,9 @@ module.exports = {
       {
         property: 'og:description',
         content: 'SugUI is a UI library and Design System based on React and Styled Components'
+      }],
+      scripts: [{
+        src: 'https://buttons.github.io/buttons.js'
       }]
     }
   },

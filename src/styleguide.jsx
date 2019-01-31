@@ -37,7 +37,7 @@ const StyleGuideRenderer = ({
         </g>
       </svg>
       <div className={classes.heroContent}>
-        <div className={classes.heading1}>SugUI design system</div>
+        <div className={classes.heading1}>SugUI Design System</div>
         <div className={classes.heading2}>UX and UI component guidelines for building web apps</div>
         <img src="./img/hero.svg" alt="SugUI design system" />
       </div>
