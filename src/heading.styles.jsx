@@ -8,7 +8,8 @@ const styles = ({
   },
   heading1: {
     fontSize: fontSize.h1,
-    marginBottom: '30px'
+    marginBottom: '30px',
+    lineHeight: '50px'
   },
   heading2: {
     fontSize: fontSize.h2,

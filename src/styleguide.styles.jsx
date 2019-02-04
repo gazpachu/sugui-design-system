@@ -2,7 +2,10 @@ const styles = () => ({
   root: {
     paddingLeft: '181px',
     minHeight: '100vh',
-    backgroundColor: '#fff'
+    backgroundColor: '#fff',
+    '@media (max-width: 768px)': {
+      paddingLeft: '0'
+    }
   },
   logo: {
     padding: '5px 16px 0px 12px'
@@ -21,7 +24,16 @@ const styles = () => ({
     overflow: 'auto',
     webkitOverflowScrolling: 'touch',
     paddingBottom: '20px',
-    boxShadow: '4px 0 4px 0 rgba(218,213,213,0.50)'
+    boxShadow: '4px 0 4px 0 rgba(218,213,213,0.50)',
+    '@media (max-width: 768px)': {
+      zIndex: '3',
+      display: 'none',
+      width: '100vw',
+      backgroundColor: 'white',
+      '&.active': {
+        display: 'block'
+      }
+    }
   },
   hero: {
     height: '400px',
@@ -34,10 +46,55 @@ const styles = () => ({
     width: '100%',
     height: '355px'
   },
+  menu: {
+    display: 'none',
+    position: 'absolute',
+    zIndex: '1',
+    left: '15px',
+    top: '10px',
+    '@media (max-width: 768px)': {
+      display: 'block'
+    }
+  },
+  menuBar: {
+    width: '30px',
+    height: '2px',
+    backgroundColor: 'white',
+    margin: '6px 0'
+  },
+  close: {
+    display: 'none',
+    position: 'absolute',
+    right: '15px',
+    top: '5px',
+    width: '32px',
+    height: '32px',
+    opacity: '0.3',
+    '@media (max-width: 768px)': {
+      display: 'block'
+    },
+    '&:before, &:after': {
+      position: 'absolute',
+      left: '15px',
+      content: '""',
+      height: '33px',
+      width: '2px',
+      backgroundColor: '#333'
+    },
+    '&:before': {
+      transform: 'rotate(45deg)'
+    },
+    '&:after': {
+      transform: 'rotate(-45deg)'
+    }
+  },
   heroContent: {
     position: 'absolute',
     width: '100%',
-    textAlign: 'center'
+    textAlign: 'center',
+    '@media (max-width: 768px)': {
+      padding: '0 20px'
+    }
   },
   heading1: {
     color: 'white',
@@ -53,6 +110,11 @@ const styles = () => ({
     textAlign: 'center',
     lineHeight: '20px',
     marginBottom: '45px'
+  },
+  image: {
+    '@media (max-width: 768px)': {
+      width: '100%'
+    }
   },
   content: {
     maxWidth: '1000px',
