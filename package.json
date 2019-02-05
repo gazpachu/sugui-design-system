@@ -1,6 +1,6 @@
 {
   "name": "sugui-design-system",
-  "version": "1.0.0-alpha.8",
+  "version": "1.0.0-alpha.9",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -13,7 +13,7 @@
     "react-styleguidist": "^9.0.0-beta4",
     "react-swipeable-views": "^0.12.13",
     "styled-components": "^4.0.3",
-    "sugui": "^1.0.0-alpha.8"
+    "sugui": "^1.0.0-alpha.9"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

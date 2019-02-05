@@ -22,6 +22,22 @@ class StyleGuideRenderer extends Component {
       classes
     } = this.props;
 
+    const sections = toc.props.sections.slice(0);
+
+    for (let i = 0; i < sections.length; i += 1) {
+      sections[i].callback = () => this.setState({ active: !this.state.active });
+
+      for (let j = 0; j < sections[i].sections.length; j += 1) {
+        sections[i].sections[j].callback = () => this.setState({ active: !this.state.active });
+      }
+
+      for (let j = 0; j < sections[i].components.length; j += 1) {
+        sections[i].components[j].callback = () => this.setState({ active: !this.state.active });
+      }
+    }
+
+    React.cloneElement(toc, { sections });
+
     return (
       <div className={classes.root}>
         {hasSidebar &&

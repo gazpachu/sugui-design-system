@@ -5,7 +5,7 @@ import Styled from 'react-styleguidist/lib/client/rsg-components/Styled';
 // import { getHash } from 'react-styleguidist/lib/utils/handleHash';
 import styles from './list.styles';
 
-const ComponentsListRenderer = ({ classes, items }) => {
+const ComponentsListRenderer = ({ classes, items, newProp }) => {
   // eslint-disable-next-line
   items = items.filter(item => item.visibleName);
 
@@ -21,7 +21,8 @@ const ComponentsListRenderer = ({ classes, items }) => {
         visibleName,
         href,
         content,
-        external
+        external,
+        callback
       }) => (
         // const isItemSelected = windowHash === href;
         <li
@@ -36,6 +37,7 @@ const ComponentsListRenderer = ({ classes, items }) => {
             className={cx(classes.link, heading && classes.heading)}
             href={href}
             target={external ? '_blank' : undefined}
+            onClick={() => callback()}
           >
             {visibleName}
             {/* (visibleName === 'Table') && <span className={`${classes.label} ${classes.wip}`}>WIP</span> */}
