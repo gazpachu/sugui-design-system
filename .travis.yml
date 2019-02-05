@@ -4,7 +4,15 @@ node_js:
 cache:
   directories:
     - node_modules
-script:
-  - npm run styleguide:build
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local_dir: dist
+  keep-history: true
 on:
   branch: master
+script:
+  - yarn run styleguide:build
+after_success:
+  - "yarn run deploy"
